@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="main.css"> 
+    <meta name="description" content="Hotell">
+    <title>Hotell</title> 
+</head>
+
+<body>    
+
+    <header>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="start.html">START</a></li>
+            <li><a href="rooms.html">ROOMS</a></li>
+            <li><a href="maps.html">MAPS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </header>    
+
+
+    <div id="form-countaner">  
+
+        <form action="boka" id="boka"> 
+
+            <section id="user-details">  
+
+         
+
+                <label for="Förnamn">Förnamn</label>
+                <input id="Förnamn" type="text" name="Förnamn" placeholder="Förnamn" value="">
+    
+                <label for="Efternamn">Efternamn</label>
+                <input id="Efternamn" type="text" name="Efternamn" placeholder="Efternamn" value="">
+    
+                <label for="Email">Email address</label>
+                <input id="Email" type="Email" placeholder="Email Address" name="Email" value="">  
+    
+                <label for="Nummer">Nummer</label>
+                <input id="Nummer" type="number" name="Nummer" placeholder="Telefonnummer" value="">
+    
+       
+    
+            
+    
+    
+            </section> 
+    
+            <section id="room-detail">  
+    
+           
+    
+                <label for="Stad">Stad</label>
+                <select id="Stad" class="" name="Stad">
+                    <option value="Malmö">Malmö</option>
+                    <option value="Stockholm">Stockholm</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Madrid">Madrid</option>
+                </select>  
+    
+                <label for="AntalRum">Antal Rum</label>
+                <select id="AntalRum" class="" name="Rum">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>  
+    
+                <label for="From">Från</label> 
+                <input id="From" name="From" type="date" class="date" value=""> 
+    
+                <label for="Till">Till</label> 
+                <input id="Till" name="Till" type="date" class="date" value="">
+    
+                <button class="bokabtn">Boka</button>
+            </section>   
+
+       
+           
+
+          
+        </form>   
+
+
+
+
+       
+
+
+    </div> 
+
+    <footer>
+        <p>Hotell Bright | Ariangatan 113  |  012 - 12 34 56</p>
+    </footer>
+
+
+
+      
+       
+
+
+
+    
+    
+            
+    
+</body>
+</html>
